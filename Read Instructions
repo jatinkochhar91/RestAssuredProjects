@@ -1,0 +1,48 @@
+*** How to Automation suite for API Testing using Postman ***
+
+We can all the requests in collections and using Tests console we can print pass message and run the collection at once.
+
+
+
+Rest Assured.
+
+-Java lib(api) for testing RESTful web services
+-To Test XML or JSON based web services
+-Supports POST,get,put,delete,etc.
+- Can be integrated with testing frameworks like JUnits,TestNG
+- Rest Assured is implemented in Groovy language.
+
+-we can create tests using BDD style (When, given etc keywords)
+
+Website - https://rest-assured.io/
+
+#-Pre-Requistes
+- Java
+- IDE(eclipse)
+- Maven
+- TestNG(for creating testing framework)
+
+
+Steps-
+-Create new Maven Project
+- Goto - https://mvnrepository.com/ for Rest Assured dependency
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.3.2</version>
+    <scope>test</scope>
+</dependency>
+
+- get Testng dependency
+ <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.3.0</version>
+    <scope>test</scope>
+</dependency>
+
+- we also need Apache poi for data driven project (for Later)
+https://mvnrepository.com/search?q=apache+poi
+
+- 
